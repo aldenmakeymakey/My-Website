@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: cursive;
+    background-color: #c8f1fc;
+}
+.topnav{
+    overflow: hidden;
+    background-color: #bceaf5;
+}
+.topnav a{
+    float: left;
+    color: #419ff7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17;
+}
+.topnav a:hover{
+    background-color: #79bbf8;
+    color: #017ff5;
+}
+.topnav a.active{
+    background-color: #20d6cd;
+    color: darkslategrey;
+}
+.heading{
+    background-color: #77abee;
+    color: rgb(1, 21, 49);
+    text-align: center;
+    font-size: xx-large;
+    padding: 25px;
+    font-weight: bolder;
+}
