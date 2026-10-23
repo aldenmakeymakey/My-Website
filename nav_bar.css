@@ -1,11 +1,11 @@
 body{
     margin: 0;
     font-family: cursive;
-    background-color: #c8f1fc;
+    background-color: #00132b;
 }
 .topnav{
     overflow: hidden;
-    background-color: #bceaf5;
+    background-color: #2a448a;
 }
 .topnav a{
     float: left;
@@ -20,11 +20,11 @@ body{
     color: #017ff5;
 }
 .topnav a.active{
-    background-color: #20d6cd;
-    color: darkslategrey;
+    background-color: #083775;
+    color: rgb(35, 141, 141);
 }
 .heading{
-    background-color: #77abee;
+    background-color: #1f6ed4;
     color: rgb(1, 21, 49);
     text-align: center;
     font-size: xx-large;
