@@ -1,0 +1,73 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: cursive;
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjN7Qp0PnOD0UrO1EA4_5IlxpJudrIjUB-skdHkzYeXw&s=10");
+    min-height: 500px;
+}
+
+.pimg2{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP3fZWqmRvxcV3A4zTiE2tB6RMe_7WWh7ckH4YMyImcw&s=10");
+    min-height: 500px;
+}
+
+.pimg3{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy9alpKlknOgC3io8BPgVCc-TW89Hud9B4IY4wkJJchA&s=10");
+    min-height: 500px;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-dark{
+    background-color: rgb(197, 248, 173);
+    color: #000000;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 60px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border{
+    background-color: #cfe6c9;
+    color: #000800;
+    padding: 20px;
+}
+
+.ptext .border.trans{
+    background-color: transparent;
+}
+
+@media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+        background-attachment: scroll;
+    }
+}
+p{
+    font-size: 30px;
+}
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
