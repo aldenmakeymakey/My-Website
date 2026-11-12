@@ -1,16 +1,116 @@
 <html>
     <head>
-        <title>Home Page</title>
+        <title>Study Planner - About Us</title>
         <link rel="stylesheet" href="nav_bar.css">
 
+        <style>
+            img {
+                width: 350px;
+                height: 220px;
+                border-radius: 10px;
+            }
+
+            textarea {
+                width: 60%;
+                height: 100px;
+            }
+
+            button {
+                padding: 10px 20px;
+                background-color: #243b64;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+        </style>
     </head>
+
     <body>
+
         <div class="topnav">
             <a href="home.html">Home</a>
             <a class="active" href="about.html">About_Us</a>
             <a href="gallery.html">Gallery</a>
             <a href="contact.html">Contact_Us</a>
         </div>
+
         <div class="heading">About Us</div>
+
+        <h2>Who Are We?</h2>
+
+        <p>
+            Welcome to Study Planner! We are a student-focused platform
+            created to help learners improve their study habits and
+            become more organized. Our website provides useful study
+            tips, techniques and suggestions to make learning easier.
+        </p>
+
+        <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800">
+
+        <h2>Our Mission</h2>
+
+        <p>
+            Our mission is to help students develop better learning
+            habits, manage their time wisely and become more confident
+            in their studies. We want to make studying less stressful
+            and more productive.
+        </p>
+
+        <img src="https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=800">
+
+        <h2>Our Vision</h2>
+
+        <p>
+            We aim to create a community of motivated learners who
+            enjoy discovering new ways to study. We believe every
+            student has the potential to succeed with the right
+            guidance, dedication and organization.
+        </p>
+
+        <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800">
+
+        <h2>Why Choose Study Planner?</h2>
+
+        <p>
+            1. Simple and practical study tips.<br>
+            2. Suggestions to improve concentration.<br>
+            3. Better time management techniques.<br>
+            4. Ways to organize schoolwork.<br>
+            5. Advice on preparing for examinations.<br>
+            6. Techniques to improve memory and understanding.
+        </p>
+
+        <h2>Our Motto</h2>
+
+        <p>"Plan Better. Study Smarter. Achieve More."</p>
+
+        <h2>Share Your Review!</h2>
+
+        <p>
+            We would love to hear your thoughts about Study Planner.
+            Write a review and let us know what you think!
+        </p>
+
+        <textarea id="review" placeholder="Write your review here..."></textarea>
+
+        <br><br>
+
+        <button onclick="submitReview()">Submit Review</button>
+
+        <p id="message"></p>
+        <br><br><br>
+
+        <div class="footer">
+            <p>All rights reserved by Alden Dsouza</p>
+        </div>
+
+        <script>
+            function submitReview() {
+                document.getElementById("review").value = "";
+                document.getElementById("message").innerHTML = "Review Submitted Successfully!";
+            }
+        </script>
+
     </body>
 </html>
+```

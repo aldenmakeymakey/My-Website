@@ -7,6 +7,7 @@ body{
 .topnav{
     overflow: hidden;
     background-color: #244b3c;
+    position: fixed;
 }
 .topnav a{
     float: left;
@@ -31,4 +32,15 @@ body{
     padding: 25px;
     font-weight: bolder;
     font-size: 100px;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #244b3c;
+    color: rgb(182, 231, 153);
+    text-align: center;
+    font-size: 35px;
 }
